@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*inicio*/
+body{
+    background-color:#68B984 ;
+}
+.logo{
+   width: 40px;
+   margin-right: 650px;
+}
+.navbar {
+background-color: #FED049 ;
+position: sticky;
+top: 0px;
+}
+.navbar > ul {
+    list-style: none;
+   display: flex;
+   justify-content: end;
+}
+.navbar > ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.headerInicio{
+    background-image: url(../img/row-of-fashionable-clothing-on-hangers.jpg);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerInicioInfo{
+    color: white;
+    
+}
+.subtitulo{
+    text-align: center;
+    padding: 20px;
+}
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tarjeta{
+    background-color: #CFFDE1 ;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+.tarjeta_img{
+    width: 100%;
+}
+.tarjeta_titulo{
+    margin: 10px;
+    font-size: 25px;
+}
+.tarjeta_desc{
+    margin: 10px;
+}
+.tarjeta_btn{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FED049;
+    color: black;
+    text-decoration: none;
+}
+.pie{
+    height: 90px;
+    background-color: #FED049;
+    
+}
+.logoFooter{
+    height: 100px;
+
+ }
+/*Contactos*/
+ 
+.formContactos{
+    border: solid 2px;
+    padding: 20px;
+    border: solid 2px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.h2Contactos{
+    text-align: center;
+    font-size: 40px;
+}
+
+/*Login-Register*/
+.formLogin{
+
+    border: solid 2px;
+    padding: 20px;
+    border: solid 2px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+     }
+     .h1Login{
+        text-align: center;
+        font-size: 60px;
+     }
+     .h2Login{
+        text-align: center;
+        font-size: 40px;
+     }
+     /*Nosotros*/
+     .h1Nosotros{
+        font-size: 60px;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .h3Nosotros{
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+     }
+     .map{
+        display: block;
+        justify-content: center;
+     }
+     /*Productos*/
+    .h1Productos{
+        text-align: center;
+        font-size: 60px;
+    }
+    .h3Productos{
+        text-align: center;
+        font-size: 60px;
+    }
