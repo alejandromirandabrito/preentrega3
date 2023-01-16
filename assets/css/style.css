@@ -3,11 +3,9 @@
     padding: 0;
 }
 /*inicio*/
-html, body{
-    overflow-x: hidden;
-}
 body{
     background-color:#68B984 ;
+    overflow-x: hidden;
 }
 .logo{
    width: 48px;
@@ -99,6 +97,8 @@ justify-content: center;
     width: 300px;
     padding: 20px;
     margin: 20px;
+    box-shadow: 7px 9px 5px 1px rgba(27,51,37,1) ;
+
 }
 .tarjeta_img{
     width: 100%;
@@ -120,6 +120,10 @@ justify-content: center;
     background-color: #FED049;
     color: black;
     text-decoration: none;
+    cursor: pointer;
+}
+.tarjeta_btn:hover{
+    background-color: #f4ff59;
 }
 .pie{
     height: 90px;
@@ -132,34 +136,63 @@ justify-content: center;
  }
 /*Contactos*/
  
-.formContactos{
+.contFormCont{
     border: solid 2px;
     padding: 20px;
     border: solid 2px;
-    margin: 10px;
-    width: 300px;
+    margin: 100px auto;
+    width: 250px;
     border-radius: 10px;
-
+    box-shadow: 7px 9px 5px 1px rgba(27,51,37,1) ;
+}
+.formularioContactos{
+    display: flex;
+    flex-direction: column ;
+}
+.hijoContContac{
+    display: flex;
+    margin: 8px;
+}
+.hijoContContac > label{
+    flex-basis: 20px;
+}
+.hijoContContac input,textarea:focus{
+    outline: none;
 }
 
 .h2Contactos{
     text-align: center;
     font-size: 40px;
+    margin: 30px;
 }
 
 /*Login-Register*/
-.formLogin{
-
-    border: solid 2px;
-    padding: 20px;
-    border: solid 2px;
-    margin: 10px;
-    width: 300px;
-    border-radius: 10px;
-     }
+    .contFormLogin{
+        border: solid 2px;
+        padding: 20px;
+        border: solid 2px;
+        margin: 100px auto;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 7px 9px 5px 1px rgba(27,51,37,1) ;
+    }
+    .formularioLogin{
+        display: flex;
+        flex-direction: column ;
+    }
+    .hijoContLogin{
+        display: flex;
+        margin: 8px;
+    }
+    .hijoContLogin > label{
+        flex-basis: 20px;
+    }
+    .hijoContLogin input,textarea:focus{
+        outline: none;
+    }
      .h1Login{
         text-align: center;
-        font-size: 60px;
+        font-size: 40px;
      }
      .h2Login{
         text-align: center;
@@ -177,8 +210,7 @@ justify-content: center;
         font-size: 20px;
         text-align: center;
      }
-     .map{
-        display: block;
+     .mapa{
         justify-content: center;
      }
      /*Productos*/
