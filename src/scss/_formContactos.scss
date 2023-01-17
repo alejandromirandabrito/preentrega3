@@ -1,0 +1,23 @@
+.contFormCont {
+    border: solid 2px;
+    padding: 20px;
+    border: solid 2px;
+    margin: 100px auto;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 7px 9px 5px 1px rgb(27, 51, 37);
+    .formularioContactos {
+        display: flex;
+        flex-direction: column;
+        .hijoContContac {
+            display: flex;
+            margin: 8px;
+            > label {
+                flex-basis: 20px;
+              }
+              input, textarea:focus {
+                outline: none;
+              }
+          }
+      }
+  }

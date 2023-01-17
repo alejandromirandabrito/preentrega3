@@ -1,0 +1,30 @@
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .tarjeta {
+        background-color: #CFFDE1;
+        border-radius: 5px;
+        width: 300px;
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 7px 9px 5px 1px rgb(27, 51, 37);
+      }
+      .tarjeta_img {
+        width: 100%;
+      }
+      .tarjeta_titulo {
+        margin: 10px;
+        font-size: 25px;
+      }
+      .tarjeta_desc {
+        margin: 10px;
+      }
+  }
+  
+
+  
+
+  
+
+  
