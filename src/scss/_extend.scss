@@ -4,7 +4,7 @@
   width: 300px;
   padding: 20px;
   margin: 20px;
-  box-shadow: 7px 9px 5px 1px rgb(27, 51, 37);
+  box-shadow: $colorSombra;
   }
   %formulario{
     border: solid 2px;
@@ -13,5 +13,5 @@
     margin: 100px auto;
     width: 250px;
     border-radius: 10px;
-    box-shadow: 7px 9px 5px 1px rgb(27, 51, 37);
+    box-shadow: $colorSombra;
   }
