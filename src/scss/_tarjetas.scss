@@ -3,12 +3,12 @@
     justify-content: center;
     flex-wrap: wrap;
     .tarjeta {
-        background-color: #CFFDE1;
-        border-radius: 5px;
-        width: 300px;
-        padding: 20px;
-        margin: 20px;
-        box-shadow: 7px 9px 5px 1px rgb(27, 51, 37);
+      @extend %tarjeta;
+        @include button;
+          &:hover {
+              background-color: #f4ff59;
+            }
+        }
       }
       .tarjeta_img {
         width: 100%;
@@ -20,7 +20,6 @@
       .tarjeta_desc {
         margin: 10px;
       }
-  }
   
 
   
